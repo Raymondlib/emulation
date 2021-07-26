@@ -102,6 +102,7 @@ struct demu_port_statistics port_statistics[RTE_MAX_ETHPORTS];
  * SHORT_PACKET should be enabled in the case of short packet benchmarking.
  * #define SHORT_PACKET
  */
+//测试git
 #ifdef SHORT_PACKET
 #define DEMU_DELAYED_BUFFER_PKTS 8388608/J
 #define MEMPOOL_BUF_SIZE 1152
